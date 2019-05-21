@@ -1,0 +1,107 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255,127,80);
+}
+
+.container{
+  display: flex;
+  width: 955px;
+  height: 550px;
+  background-color: #fff;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 55px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  /* background-color: aqua; */
+}
+
+.numbers li{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.numbers li:first-of-type{
+  margin-bottom: 27.5px;
+}
+
+.right-side{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+}
+
+.graph{
+  width: 100%;
+  height: 95%;
+  /* background-color: greenyellow; */
+}
+
+.graph-list{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.graph-list li{
+  border: 1px solid #000000;
+  list-style: none;
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: yellow;
+}
+.red{
+  background-color: red;
+}
+
+.index{
+  display: flex;
+  width: 100%;
+  height: 5%;
+  margin: 0;
+  padding: 0;
+  /* background-color: blueviolet; */
+}
+
+.index li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 27.5px;
+  font-size: 20px;
+  list-style: none;
+}
+
+
+
